@@ -1,2 +1,17 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container" id="frontpage-main-container">
+    <%= render 'shared/navbar'%>
+    <section id="section-one">
+        <%= render 'components/section-one-div' %>
+    </section>
+    <!-- section two of front page, with the introduction to the site -->
+    <!-- TO DO: Use Bootstrap scrollspy to identify where the view is -->
+    <section id="section-two">
+        <%= render 'components/section-two-div' %>
+    </section>
+    <section id="section-three">
+        <%= render 'components/section-three-div' %>
+    </section>
+    <section id="section-four">
+        <%= render 'components/section-four-div' %>
+    </section>
+</div>

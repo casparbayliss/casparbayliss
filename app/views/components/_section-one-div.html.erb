@@ -1,0 +1,33 @@
+<div id="section-one-content">
+    <div class="container">
+        <div class="row profile-heading">
+            <div class="col-6" align="center">
+                <%= image_tag("caspar.jpg", class: "avatar-large", alt: "avatar-large") %>
+            </div>
+            <div class="col-6 my-auto">
+                <div class="row">
+                    <h1>Caspar Bayliss</h1>
+                </div>
+                <div class="row">
+                    <h2>Business developer, full stack engineer, linguist and writer</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row contact-details top-buffer">
+            <div class="col text-center">
+                <h3>+447847010083</p>
+            </div>
+            <div class="col text-center">
+                <h3><%= mail_to "casparbayliss@gmail.com", "Email: casparbayliss@gmail.com", class: "mail-to" %></p>
+            </div>
+        </div>
+        <div class="row external-links top-buffer">
+            <div class="col text-center">
+                <h4><%= link_to "LinkedIn", "https://www.linkedin.com/in/caspar-bayliss-97179a139/" %></h4>
+            </div>
+            <div class="col text-center">
+                <h4><%= link_to "Github", "https://github.com/casparbayliss" %></h4>
+            </div>
+        </div>
+    </div>
+</div>
